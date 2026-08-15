@@ -32,3 +32,37 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", updateBarPosition, { passive: true });
   updateBarPosition();
 });
+
+emailjs.init({
+    publicKey: "gtWk8G0wSVZtZEbhd"
+});
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const status = document.getElementById("status");
+
+    status.textContent = "Sending...";
+
+    emailjs.sendForm(
+        "service_mp2h2xo",
+        "template_6o48ael",
+        this
+    )
+    .then(function() {
+
+        status.textContent = "Message sent successfully!";
+
+        document.getElementById("contact-form").reset();
+
+    })
+    .catch(function(error) {
+
+        console.error(error);
+
+        status.textContent = "Failed to send message.";
+
+    });
+
+});
