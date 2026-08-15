@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(function() {
 
           status.textContent =
-            "Message sent successfully!";
+            "✅Message sent successfully!";
 
           contactForm.reset();
 
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
           );
 
           status.textContent =
-            "Failed to send message. Please try again.";
+            "‼️Failed to send message. Please try again.";
 
         });
 
