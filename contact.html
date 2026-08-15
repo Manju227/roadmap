@@ -4,14 +4,32 @@
 <body>
     <header class="navbar"><div class="logo-text"><h2>BCA Student Roadmap</h2><p>Contact Us</p></div></header>
     <nav class="category-bar"><a href="index.html#home">Home</a><a href="semester.html">Semester</a><a href="roadmap.html">Roadmap</a><a href="opportunities.html">Opportunities</a><a href="internship.html">Internship</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
-    <main><section class="contact"><h2>Contact Us</h2><div class="contact-container"><div class="contact-info"><h3>Chetana Education Society</h3><p>Vijayapura, Karnataka</p><p>info@chetana.edu.in</p><p>+91 9876543210</p></div><div class="contact-form"><form>
-    <input type="name" placeholder="Enter your name">
-    <input type="email" placeholder="Enter your email" required>
-    <button type="submit"
-        onclick="window.location.href='mailto:manjunath59039@gmail.com'">
-        Send
-    </button>
-  </form></div></div></section></main>
+    <main><section class="contact"><h2>Contact Us</h2><div class="contact-container"><div class="contact-info"><h3>Chetana Education Society</h3><p>Vijayapura, Karnataka</p><p>info@chetana.edu.in</p><p>+91 9876543210</p></div><div class="contact-form">
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contact-form">
+
+        <input
+            type="email"
+            name="user_email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <textarea
+            name="message"
+            placeholder="Write your message"
+            required
+        ></textarea>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+    <p id="status"></p>
+  </section></div></div></section></main>
     <script src="script.js"></script>
 </body>
 </html>
