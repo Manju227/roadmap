@@ -1,7 +1,7 @@
 BCA Student Roadmap & Opportunities
 A web-based roadmap designed to help BCA students understand what to learn during their degree and prepare for internships, projects, placements, and IT careers.
 🌐 Live Website
-👉 https://manju227.github.io/roadmap/⁠�
+👉 https://manju227.github.io/roadmap/
 📚 Features
 📖 Semester-wise BCA subjects
 🛣️ Career roadmaps
@@ -27,7 +27,7 @@ BCA → Skills → Projects → Internship → Placement → IT Career
 🚀 Deployment
 This website is deployed using GitHub Pages.
 Live Demo:
-https://manju227.github.io/roadmap/⁠�
+https://manju227.github.io/roadmap/
 👨‍💻 Developer
 Manjunath
 BCA Student | Aspiring Cybersecurity Professional
