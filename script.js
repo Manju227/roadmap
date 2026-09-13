@@ -58,6 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
      EMAILJS CONTACT FORM
      ============================== */
 
+  if (typeof emailjs === "undefined") {
+    return;
+  }
+
   emailjs.init({
     publicKey: "gtWk8G0wSVZtZEbhd"
   });
